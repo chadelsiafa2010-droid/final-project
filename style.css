@@ -185,3 +185,92 @@ info{
     margin-left: auto;
     margin-right: auto;
 }
+```css id="extraspice01"
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+h1, h2{
+    transition: 0.3s;
+}
+
+h1:hover, h2:hover{
+    text-shadow: 0 0 15px gold;
+}
+
+
+
+.content:hover{
+    transform: translateY(-5px);
+
+    transition: 0.3s;
+}
+
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background: #dbe4f0;
+}
+
+::-webkit-scrollbar-thumb{
+    background: darkblue;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: gold;
+}
+
+
+
+hero{
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.image-section img:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+
+
+nav a{
+    position: relative;
+}
+
+nav a::after{
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -5px;
+
+    width: 0%;
+    height: 3px;
+
+    background: gold;
+
+    transition: 0.3s
+```
+        
