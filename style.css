@@ -95,7 +95,7 @@ button:hover{
 
 content{
     padding: 60px;
-    background-color: white;
+    background-color: magenta;
     width: 85%;
     margin: 40px auto;
     border-radius: 15px;
@@ -273,8 +273,5 @@ nav a::after{
 
     transition: 0.3s
 }
-image-section img{
-    width: 180px;
-    height: 120px;
-}
+
         
