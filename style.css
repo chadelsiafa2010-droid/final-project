@@ -1,4 +1,4 @@
-*{
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body{
     color: #333;
 }
 
-/* HEADER */
+
 
 header{
     background: linear-gradient(rgba(0,0,50,0.7), rgba(0,0,50,0.7)),
@@ -29,7 +29,7 @@ header h1{
     letter-spacing: 2px;
 }
 
-/* NAVIGATION */
+
 
 nav{
     margin-top: 20px;
@@ -51,21 +51,21 @@ nav a:hover{
     color: darkblue;
 }
 
-/* HERO SECTION */
 
-.hero{
+
+hero{
     text-align: center;
     padding: 80px 20px;
     background-color: white;
 }
 
-.hero h2{
+hero h2{
     font-size: 40px;
     color: darkblue;
     margin-bottom: 20px;
 }
 
-.hero p{
+hero p{
     width: 70%;
     margin: auto;
     line-height: 1.8;
@@ -73,7 +73,7 @@ nav a:hover{
     margin-bottom: 30px;
 }
 
-/* BUTTON */
+
 
 button{
     background-color: darkblue;
@@ -91,9 +91,9 @@ button:hover{
     color: darkblue;
 }
 
-/* CONTENT */
 
-.content{
+
+content{
     padding: 60px;
     background-color: white;
     width: 85%;
@@ -102,19 +102,19 @@ button:hover{
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
-.content h2{
+content h2{
     color: darkblue;
     margin-bottom: 20px;
     font-size: 35px;
 }
 
-.content p{
+content p{
     line-height: 1.8;
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-/* SERVICES */
+
 
 ul{
     list-style: none;
@@ -129,19 +129,19 @@ ul li{
     font-size: 18px;
 }
 
-/* CONTACT */
 
-.contact-box{
-    text-align: center;
+
+contact-box{
+   text-align: center;
     padding: 40px;
 }
 
-.contact-box p{
+contact-box p{
     margin: 15px 0;
     font-size: 20px;
 }
 
-/* FOOTER */
+
 
 footer{
     background-color: #020b3d;
@@ -152,9 +152,9 @@ footer{
     font-size: 16px;
 }
 
-/* IMAGE SECTION */
 
-.image-section{
+
+image-section{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -162,7 +162,7 @@ footer{
     flex-wrap: wrap;
 }
 
-.image-section img{
+image-section img{
     width: 300px;
     height: 200px;
     border-radius: 15px;
