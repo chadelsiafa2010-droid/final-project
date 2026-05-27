@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px;
+  background-color: white;
+}
+
+.hero h2 {
+  color: darkblue;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 50px;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
