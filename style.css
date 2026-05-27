@@ -1,61 +1,176 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-  background-color: darkblue;
-  color: white;
-  padding: 20px;
-  text-align: center;
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
 }
 
-nav {
-  margin-top: 10px;
+/* HEADER */
+
+header{
+    background: linear-gradient(rgba(0,0,50,0.7), rgba(0,0,50,0.7)),
+    url('https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?q=80&w=1200&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 15px;
-  font-weight: bold;
+header h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
 }
 
-nav a:hover {
-  color: yellow;
+/* NAVIGATION */
+
+nav{
+    margin-top: 20px;
 }
 
-.hero {
-  text-align: center;
-  padding: 80px;
-  background-color: white;
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px 18px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
-.hero h2 {
-  color: darkblue;
+nav a:hover{
+    background-color: gold;
+    color: darkblue;
 }
 
-button {
-  background-color: darkblue;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
+/* HERO SECTION */
+
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+    background-color: white;
 }
 
-.content {
-  padding: 50px;
+.hero h2{
+    font-size: 40px;
+    color: darkblue;
+    margin-bottom: 20px;
 }
 
-ul li {
-  margin: 10px 0;
+.hero p{
+    width: 70%;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
-footer {
-  background-color: darkblue;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
+/* BUTTON */
+
+button{
+    background-color: darkblue;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: gold;
+    color: darkblue;
+}
+
+/* CONTENT */
+
+.content{
+    padding: 60px;
+    background-color: white;
+    width: 85%;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.content h2{
+    color: darkblue;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.content p{
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* SERVICES */
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    background-color: #eef2ff;
+    margin: 15px 0;
+    padding: 20px;
+    border-left: 8px solid darkblue;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+/* CONTACT */
+
+.contact-box{
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-box p{
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #020b3d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+/* IMAGE SECTION */
+
+.image-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.image-section img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.image-section img:hover{
+    transform: scale(1.05);
 }
