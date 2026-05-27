@@ -273,4 +273,8 @@ nav a::after{
 
     transition: 0.3s
 }
+image-section img{
+    width: 180px;
+    height: 120px;
+}
         
